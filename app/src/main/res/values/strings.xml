@@ -1,0 +1,23 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">GTN</string>
+    <string name="long_app_name">GuessTheNumber</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <string name="game_info">Your task in this game is to guess the number I choose between 1 and a maximum number specified in Settings. You can ask whether a number is greater than or less than or equal to some number. There are two modes in this game (also can be chosen in Settings) that you can play. Basic mode, which means that I don\'t cheat and don\'t change the number as you ask questions about it and try to guess it. In Smart mode I cheat, so it takes you a bit more time to get the number (also, don\'t try to guess it before you know it for sure :)). Good luck! </string>
+
+
+    <string name="pref_model_mode_key">model_mode</string>
+    <string name="model_mode_title">Game mode</string>
+    <string name="model_mode_basic">Basic</string>
+    <string name="model_mode_smart">Smart</string>
+
+    <string name="pref_max_number_key">max_number</string>
+
+    <string name="format_title">Your task is to guess my number between 1 and <xliff:g id="maxNumber">%1$d</xliff:g></string>
+    <string name="format_answer_more">The number is more than <xliff:g id="number">%1$d</xliff:g></string>
+    <string name="format_answer_less">The number is less than or equal to <xliff:g id="number">%1$d</xliff:g></string>
+    <string name="format_correct_answer">You guessed the number. It took you <xliff:g id="numberOfQuestions">%1$d</xliff:g> questions and <xliff:g id="numberOfGuesses">%2$d</xliff:g> guesses.</string>
+    <string name="wrong_answer">Oops! This is not the number I\'ve chosen.</string>
+    <string name="early_answer">Hey! You cannot be sure about this! Ask more questions.</string>
+</resources>
